@@ -31,3 +31,45 @@ Python (Pandas, NumPy, Matplotlib, Seaborn)
 Scikit-learn (Linear Regression, Decision Tree, etc.)
 
 Jupyter Notebook
+
+
+health insurance cost analysis script is detailed and covers key areas of exploratory data analysis (EDA), including:
+
+Data Loading & Cleaning
+
+Outlier Detection & Handling
+
+Univariate and Bivariate Analysis
+
+Visualizations using matplotlib and seaborn
+
+Here’s a quick summary of what’s good and a few improvements you could consider:
+
+✅ Strengths
+**Clear Preprocessing**
+
+Renaming columns for better readability.
+
+Rounding off numerical values for consistency.
+
+Good use of .copy() to preserve original data.
+
+**Outlier Handling**
+
+Provides both removal and replacement strategies.
+
+Uses IQR method correctly for detecting outliers.
+
+Visualizes boxplots before and after cleaning—great for verification.
+
+**Comprehensive EDA**
+
+Histograms, boxplots, scatter plots, and correlation heatmaps all provide strong insight into the data distribution and relationships.
+
+Categorical analysis via bar plots and pd.crosstab() is well done.
+
+**Comments & Readability**
+
+Clear and educational inline comments explain each step.
+
+Logical flow from loading data → preprocessing → EDA.
